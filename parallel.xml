@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="parallel">
+
+    <test name="RestAssuredTest">
+        <classes>
+            <class name="com.epam.webservices.tests.RestAssuredTest"/>
+        </classes>
+    </test>
+    <test name="RestTemplTest">
+        <classes>
+            <class name="com.epam.webservices.tests.RestTemplTest"/>
+        </classes>
+    </test>
+    <test name="ApacheHttpClientTest">
+        <classes>
+            <class name="com.epam.webservices.tests.ApacheHttpClientTest"/>
+        </classes>
+    </test>
+</suite>
